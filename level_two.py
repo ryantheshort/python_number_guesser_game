@@ -1,6 +1,10 @@
 from random import randint
 import time
 
+# Level Two
+# In level two, the game is reversed and the user picks a number and the computer 
+# then has 3 guesses to select the correct answer.
+
 prompt = input("Pick a number between 1 and 10 for the computer to guess. ")
 number = int(prompt)
 
